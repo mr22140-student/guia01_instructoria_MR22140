@@ -32,6 +32,6 @@ class LibroController extends Controller
     public function destroy($id)
     {
         Libro::destroy($id);
-        return response()->json(['mensaje' => 'Libro eliminado']);
+        return response()->json(['mensaje' => 'Libro Borrado']);
     }
 }

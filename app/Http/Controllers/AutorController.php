@@ -32,6 +32,6 @@ class AutorController extends Controller
     public function destroy($id)
     {
         Autor::destroy($id);
-        return response()->json(['mensaje' => 'Eliminado']);
+        return response()->json(['mensaje' => 'Borrado']);
     }
 }

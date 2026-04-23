@@ -32,6 +32,6 @@ class CategoriaController extends Controller
     public function destroy($id)
     {
         Categoria::destroy($id);
-        return response()->json(['mensaje' => 'Categoria eliminada']);
+        return response()->json(['mensaje' => 'Categoria Borrada']);
     }
 }

@@ -32,6 +32,6 @@ class PrestamoController extends Controller
     public function destroy($id)
     {
         Prestamo::destroy($id);
-        return response()->json(['mensaje' => 'Prestamo eliminado']);
+        return response()->json(['mensaje' => 'Prestamo Borrado']);
     }
 }
